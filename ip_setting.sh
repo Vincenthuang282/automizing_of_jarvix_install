@@ -19,5 +19,4 @@ read -p "Please Enter Your DB IP : " ans
 sed -i "s/DB\_IP\=\".*\"/DB\_IP\=\"$ans\"/" ~/install_script/env.sh
 
 
-#export COMPUTER_IP=""
-#export DB_IP=""
+
