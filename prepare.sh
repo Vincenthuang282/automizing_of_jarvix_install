@@ -1,11 +1,5 @@
 #!/bin/bash
 
-echo "------installing depends update----------------"
-sudo apt-get update
-
-echo "-------installing depends upgrade---------------"
-sudo apt-get upgrade
-
 echo "-------install git---------------"
 sudo apt install git -y 
 
